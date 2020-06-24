@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block head %} 
+
+{% endblock %}
+
+{% block body %}
+
+<div class="content">
+   {% for task in tasks %}
+    <p>{{ task.email }}</p>
+    <p>{{ task.pswd_hash }}</p>
+
+    
+</div>
+
+{% endblock %}
